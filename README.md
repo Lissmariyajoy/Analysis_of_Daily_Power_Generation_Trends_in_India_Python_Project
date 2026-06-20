@@ -1,12 +1,12 @@
 # ⚡ Analysis of Daily Power Generation Trends in India
 
 ## 📌 Project Overview
-This project analyzes India's daily power generation data from **1 September 2017 to 25 October 2020** using Python and data analytics techniques. The study explores electricity generation patterns across different years, regions, states, sectors, station types, and power sources. Through data preprocessing, exploratory data analysis (EDA), and visualizations, the project identifies meaningful trends, relationships, and insights into India's electricity generation landscape.
+This project analyzes India's daily power generation data from **2017 to  2020** using Python and data analytics techniques. The study explores electricity generation patterns across different month, years, quarter, regions, states, sectors, station types, and power sources. Through data preprocessing, exploratory data analysis (EDA), and visualizations, the project identifies meaningful trends, relationships, and insights into India's electricity generation landscape.
 
 ---
 
 ## 🎯 Objectives
-- Analyze daily power generation trends in India from 2017 to 2020.
+- Analyze power generation trends in India from 1 September 2017 to 25 October 2020.
 - Study power generation patterns across years, regions, and states.
 - Compare planned and actual power generation performance.
 - Identify the contribution of different sectors and station types.
@@ -16,14 +16,14 @@ This project analyzes India's daily power generation data from **1 September 201
 ---
 
 ## 📂 Dataset Information
-- **Dataset Source:** India Data Portal (Government of India)
-- **Dataset Name:** Daily Power Generation Dataset
+- **Dataset Source:** Goverment of India Data Portal ((https://indiadataportal.com/p/power/r/mop-power_generation-pl-dl-abc))
+- **Dataset Name:** daily-power-generation.csv
 - **Study Period:** 1 September 2017 to 25 October 2020
 - **Original Dataset Size:** 1,048,575 rows and 12 columns
-- **Final Dataset Size:** 992,442 rows and 15 columns (after data cleaning and filtering)
+- **Final Dataset Size:** 992,442 rows and 16 columns (after data cleaning and filtering)
 
 ### Dataset Attributes
-- Id
+- Id   
 - Date
 - Region
 - State Name
@@ -38,6 +38,7 @@ This project analyzes India's daily power generation data from **1 September 201
 - Country
 - Power Source
 - Generation Status
+- Year
 
 ---
 
@@ -54,7 +55,6 @@ This project analyzes India's daily power generation data from **1 September 201
 - Plotly
 
 ### Development Environment
-- Jupyter Notebook
 - Visual Studio Code (VS Code)
 
 ---
@@ -70,8 +70,8 @@ The following preprocessing steps were performed to ensure data quality and cons
   - Country
   - Power Source
   - Generation Status
+  - Year
 - Retained Bhutan records and classified them as Imported Power.
-- Removed records with missing generation and capacity values.
 - Filtered records with zero monitored capacity, planned generation, and actual generation values where appropriate.
 
 ---
@@ -128,7 +128,7 @@ The following preprocessing steps were performed to ensure data quality and cons
 
 # ✅ Conclusion
 
-The analysis reveals that India's electricity generation from 2017 to 2020 was predominantly driven by domestic Conventional Thermal power stations. Electricity generation was concentrated among a few states and large-capacity power stations, while actual generation generally remained close to planned targets. The findings provide valuable insights into generation trends, regional disparities, and infrastructure performance and can support future energy planning and policy decisions.
+The analysis reveals that domestic Conventional Thermal power stations predominantly drove India's electricity generation from 2017 to 2020. Electricity generation was concentrated among a few states and large-capacity power stations, while actual generation generally remained close to planned targets. The findings provide valuable insights into generation trends, regional disparities, and infrastructure performance and can support future energy planning and policy decisions.
 
 ---
 
@@ -136,10 +136,10 @@ The analysis reveals that India's electricity generation from 2017 to 2020 was p
 
 **Lissmariya Joy**
 
-- Project: Analysis of Daily Power Generation Trends in India (2017–2020)
+- Project: Analysis of Daily Power Generation Trends in India
 - Tools Used: Python, Pandas, NumPy, Matplotlib, Seaborn, Plotly
-- GitHub: *(Add your GitHub profile link here)*
-- LinkedIn: *(Add your LinkedIn profile link here)*
+- GitHub: *https://github.com/Lissmariyajoy*
+- LinkedIn: *www.linkedin.com/in/lissmariya-joy*
 
 ---
 ⭐ If you found this project useful, feel free to star this repository.
