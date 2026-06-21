@@ -101,6 +101,170 @@ The following preprocessing steps were performed to ensure data quality and cons
 
 ---
 
+# 📊 Data Visualization
+
+The project uses Matplotlib, Seaborn, and Plotly to create interactive and statistical visualizations that uncover trends, patterns, distributions, and relationships in India's daily power generation data.
+
+---
+
+## 1. Year-wise Total Power Generation (Line Chart)
+**Description:** Displays the total electricity generated in each year from 2017 to 2020.
+
+**Key Insights:**
+- Total power generation increased significantly from 2017 and reached its peak during 2018 and 2019.
+- Power generation declined in 2020 due to noticeable fluctuations in generation patterns.
+- The values for 2017 and 2020 represent partial-year data, as the dataset covers the period from 1 September 2017 to 25 October 2020.
+
+---
+
+## 2. Year-wise Planned vs Actual Generation (Line Plot)
+**Description:** Compares planned electricity generation with actual electricity generation across different years.
+
+**Key Insights:**
+- Actual generation closely followed planned generation throughout the study period.
+- Minor deviations between planned and actual values indicate efficient generation planning and execution.
+
+---
+
+## 3. Month-wise Total Power Generation (Line Chart)
+**Description:** Displays monthly power generation trends for each year.
+
+**Key Insights:**
+- Monthly generation patterns remained relatively stable during 2018 and 2019.
+- Certain months recorded higher generation levels, indicating seasonal variations in electricity demand and production.
+- The values for 2017 and 2020 represent partial-year observations.
+
+---
+
+## 4. Region-wise Total Generation (Bar Chart)
+**Description:** Compares total electricity generation across different regions of India.
+
+**Key Insights:**
+- The Western region generated the highest amount of electricity.
+- The Northern region emerged as the second-largest contributor.
+- The North Eastern region and imported power from Bhutan contributed comparatively smaller shares.
+
+---
+
+## 5. Top 10 Power Generating States (Bar Chart)
+**Description:** Displays the states with the highest total electricity generation.
+
+**Key Insights:**
+- Maharashtra emerged as the leading power-generating state.
+- Uttar Pradesh, Madhya Pradesh, Chhattisgarh, and Gujarat also contributed significantly.
+- Electricity generation is concentrated among a relatively small number of states.
+
+---
+
+## 6. Station Type Contribution (Pie Chart)
+**Description:** Shows the contribution of different station types to total electricity generation.
+
+**Key Insights:**
+- Conventional Thermal stations contributed nearly 80% of total electricity generation.
+- Hydro and Nuclear stations provided comparatively smaller but important contributions.
+- Diesel Generator stations contributed only a negligible share.
+
+---
+
+## 7. Sector-wise Planned vs Actual Generation (Grouped Bar Chart)
+**Description:** Compares planned and actual generation across different sectors.
+
+**Key Insights:**
+- The Central sector recorded the highest electricity generation.
+- The State and Private sectors also contributed substantially.
+- Actual generation remained close to planned generation across all sectors.
+
+---
+
+## 8. Power Source Contribution (Pie Chart)
+**Description:** Shows the contribution of domestic and imported power sources.
+
+**Key Insights:**
+- Domestic power contributed approximately 99% of total electricity generation.
+- Imported power accounted for only a very small proportion of total generation.
+
+---
+
+## 9. Correlation Heatmap
+**Description:** Displays the correlation between monitored capacity, planned generation, and actual generation.
+
+**Key Insights:**
+- Planned and actual generation exhibited a strong positive correlation (0.74).
+- Monitored capacity showed moderate positive relationships with both planned and actual generation.
+- States with larger installed capacities generally generated more electricity.
+
+---
+
+## 10. Distribution of Actual Generation (Histogram)
+**Description:** Shows the distribution of actual power generation values.
+
+**Key Insights:**
+- The distribution is highly right-skewed.
+- Most power stations generated relatively smaller amounts of electricity.
+- A few large-capacity stations generated exceptionally high amounts of electricity.
+
+---
+
+## 11. Box Plot (Outlier Detection)
+**Description:** Identifies the presence of outliers in actual power generation.
+
+**Key Insights:**
+- Numerous high-value outliers are present in the dataset.
+- A small number of large-capacity stations contribute disproportionately to total generation.
+- The presence of outliers indicates significant variation in generation capacities across stations.
+
+---
+
+## 12. State-wise Capacity vs Generation (Scatter Plot)
+**Description:** Examines the relationship between monitored capacity and actual generation across states.
+
+**Key Insights:**
+- States with higher monitored capacities generally produced more electricity.
+- A positive relationship exists between installed capacity and actual generation.
+- Electricity generation capacity and performance vary considerably across states.
+
+---
+
+## 13. Year-wise Station Type Trend (Stacked Bar Chart)
+**Description:** Displays yearly power generation across different station types.
+
+**Key Insights:**
+- Conventional Thermal stations dominated electricity generation in every year.
+- Hydro power remained the second-largest contributor.
+- Total generation peaked during 2018 and 2019 and declined in 2020.
+
+---
+
+## 14. Quarterly Trend (Line Chart)
+**Description:** Shows quarter-wise power generation trends for each year.
+
+**Key Insights:**
+- Power generation remained relatively stable during 2018 and 2019.
+- Q2 of 2019 recorded the highest quarterly generation.
+- The values for 2017 and 2020 represent partial-year data and do not reflect complete annual generation patterns.
+
+---
+
+## 15. Top 10 Performing Power Stations (Bar Chart)
+**Description:** Displays the highest electricity-generating power stations.
+
+**Key Insights:**
+- All top-performing stations were Conventional Thermal power stations.
+- These stations belonged exclusively to the Central and Private sectors.
+- Electricity generation is highly concentrated among a few large-capacity thermal stations.
+
+---
+
+## 16. Bottom 5 States with Lowest Power Generation (Bar Chart)
+**Description:** Displays the states with the lowest electricity generation.
+
+**Key Insights:**
+- Goa recorded zero actual generation despite having monitored capacity values.
+- Ladakh, Andaman and Nicobar Islands, Mizoram, and Nagaland contributed only a negligible share of total generation.
+- Significant disparities exist in electricity generation infrastructure across states.
+
+---
+
 # 💡 Key Insights
 
 - Conventional Thermal power stations contributed nearly **80%** of India's total electricity generation.
