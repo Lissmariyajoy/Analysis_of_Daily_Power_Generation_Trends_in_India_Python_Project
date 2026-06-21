@@ -135,6 +135,7 @@ The analysis reveals that domestic Conventional Thermal power stations predomina
 # 👩‍💻 Author
 
 **Lissmariya Joy**
+
 Aspiring Data Analyst | Python | SQL | Power BI | Data Visualization
 
 - Project: Analysis of Daily Power Generation Trends in India
